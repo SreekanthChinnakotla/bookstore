@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: inter;
+}
+
+.hero {
+  padding: 40px;
+  margin: 25px;
+  border: 2px solid black;
+  font-size: 35px;
+  line-height: 45px;
+  font-weight: 400;
+}
+.underline {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 77.41px;
+  text-decoration: underline;
+  padding-bottom: 20px;
+}
+.span {
+  font-size: 40px;
+  font-weight: 700;
+  font-style: italic;
+}
+.readmore {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 35px;
+}
+.readmore a {
+  color: black;
+  text-decoration: underline;
+}
+.images {
+  padding: 40px;
+}
+.image {
+  width: 70%;
+}
+.trivia {
+  padding-left: 40px;
+
+}
+.trivia ol{
+    padding-left: 40px;
+}
+li{
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 50px;
+}
+.trivia .underline{
+    padding-bottom: 50px;
+}
+::-webkit-scrollbar{
+    display: none;
+}

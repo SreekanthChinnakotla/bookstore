@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dropdown</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<img src="https://th.bing.com/th/id/OIP.KKgIlOHRlua-jgvxW8p_sAHaFr?w=243&h=186&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="turtle...... it represents slow and steady always wins rather than fast and neglected">
+<script>
+    function BasicCalc(A,B,op) {
+
+switch (op) {
+case "+":
+    return A + B;
+case "-":
+    return A - B;
+case "*":
+    return A * B;
+case "/":
+    if (B === 0) {
+        return "Division by zero is not allowed";
+    } else {
+        return A / B;
+    }
+default:
+    return "Invalid operator";
+}
+    }
+Math.r
+
+var readline = require("readline").createInterface(process.stdin);
+
+let inputArr = [];
+var lineNumber = -1;
+
+readline.on("line", readInputs);
+
+function readInputs(line) {
+inputArr.push(line);
+lineNumber++;
+if (lineNumber == 0) {
+op=inputArr[0];
+}
+
+if (lineNumber == 1) {
+logic("s");
+readline.close();
+}
+}
+
+function logic(input) {
+
+
+let Arr = inputArr[1].split(" ").map((x) => parseInt(x));
+let A=Arr[0];
+let B=Arr[1];
+console.log(BasicCalc(A,B,op));
+}
+
+</script>
+</body>
+</html>

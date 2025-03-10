@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CookPal</title>
+    <link rel="shortcut icon" href="./assets/cookpal fevicon.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="togglenav">
+        <div class="togglelogo">
+            <div><img src="./assets/logo.svg" alt=""></div>
+            <div><img src="./assets/Profile.svg" alt=""></div>
+        </div>
+        <ul class="togglelist">
+            <li><a href="#">Home</a></li>
+            <li> <a href="#">Explore</a></li>
+            <li>   <a href="#">Help</a></li>
+        </ul>
+        <button id="toggleclose" onclick="toggleDrawer()"> X </button>
+    </div>
+    <nav class="navBar">
+        <button id="navtoggle" onclick="toggleDrawer()"><i class="fa-solid fa-bars"></i></button>
+        <div id="logo"><a href="#"><img height="100%" src="./assets/logo.svg" alt=""></a></div>
+        <div class="nav-items">
+            <a href="#">Home</a>
+            <a href="#">Explore</a>
+            <a href="#">Help</a>
+            <a href="#"> <img src="./assets/Profile.svg" alt="" class="profile"></a>
+        </div>
+       
+       
+    </nav>
+
+    <div class="banner">
+       <h2>Trending now</h2>
+       <h1>Mike’s famous salad <br> with cheese</h1>
+       <h3>By John Mike</h3>
+    </div>
+    <div class="search-container">
+        <h2>Search For Recipes</h2>
+        <div class="inputcontainer">
+            <input type="text" id="searchInput" placeholder="Search For Recipes...">
+            <img src="./assets/li_search.svg" alt="">
+        </div>
+    </div>
+    <div class="filters">
+        <button class="filter-button active" id="showAll">
+            <span>All Recipes</span>
+            <span class="arrow">></span>
+        </button>
+        <button class="filter-button" id="showVeg">
+            <span>Veg Recipes Only</span>
+            <span class="arrow">></span>
+        </button>
+        <button class="filter-button" id="showNonVeg">
+            <span>Non Veg Recipes</span>
+            <span class="arrow">></span>
+        </button>
+    </div>
+
+    <div class="hero">
+        <div class="rating-filters">
+            <h2>Filters</h2>
+            <h4>Rating</h4>
+            <label>
+                <input type="radio" name="rating" value="above" id="ratingAbove">
+                Rating Above 4.5
+            </label><br>
+            <label>
+                <input type="radio" name="rating" value="below" id="ratingBelow">
+                Rating Below 4.0
+            </label>
+        </div>
+        <div class="recipe-container" id="recipeContainer">
+            <!-- Recipe cards will be dynamically added here -->
+        </div>
+    </div>
+    <div class="footer">
+        <div class="para">
+            <img src="./assets/logo.svg" alt="">
+            <p>Cookpal is a recipe website with a wide variety of delicious recipes, easy-to-use search function. Join our community and let's cook together!</p>
+
+        </div>
+        <div class="company">
+            <h2>company</h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Explore</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Activity</a></li>
+            </ul>
+        </div>
+        <div class="resources">
+            <h2>Resources</h2>
+            <ul>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Use cases</a></li>
+                <li><a href="">Testimonials</a></li>
+                <li><a href="">Insights</a></li>
+            </ul>
+        </div>
+        <div class="address">
+            <img src="./assets/logo.svg" alt="">
+            <p>Ut risus mattis interdum faucibus facilisi. Facilisi purus accumsan aliquam.</p>
+            <input type="mail" placeholder="Your Email">
+            <button class="Subscribs">Subscribs</button>
+        </div>
+    </div>
+    <div class="social">
+        <a href="#"><i class="fa-brands fa-square-instagram fa-2xl" style="color: #2a3342;"></i></a>
+        <a href="#"><i class="fa-brands fa-square-twitter fa-2xl" style="color: #2a3342;"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin fa-2xl" style="color: #2a3342;"></i></a>
+        <a href="#"><i class="fa-brands fa-square-facebook fa-2xl" style="color: #2a3342;"></i></a>
+    </div>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

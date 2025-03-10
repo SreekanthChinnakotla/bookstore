@@ -1,0 +1,28 @@
+
+.center {
+  text-align: center;
+}
+.right {
+  text-align: right;
+}
+table {
+  border-collapse: collapse;
+  width: 90vw;
+  margin: auto;
+}
+td {
+  border: 1px solid rgb(0, 0, 0);
+  border-spacing: 1px;
+  padding: 1px;
+
+}
+h1 {
+  text-align: center;
+}
+
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}

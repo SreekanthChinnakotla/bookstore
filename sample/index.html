@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+  <form>
+    <div class="row g-3 align-items-center">
+      <div class="col-4 mb-3">
+
+        <label for="first-name-input" class="form-label">First Name</label>
+        <input type="text" class="form-control" id="first-name-input" aria-describedby="First-name-input" required>
+        
+        <div class=" col-4 mb-3">
+          <label for="last-name-input" class="form-label">Last Name</label>
+          <input type="text" class="form-control" id="last-name-input" required>
+        </div>
+
+      </div>
+
+      <div class=" col-4 mb-3">
+        <label for="email-input" class="form-label">Email Address</label>
+        <input type="email" class="form-control" id="email-input" required>
+      </div>
+
+      <div class="col-6 mb-3">
+        <label for="college-input" class="form-label">College</label>
+        <input type="text" class="form-control" id="college-input" required>
+      </div>
+      <div class=" col-3 mb-3">
+        <label for="grad-year-select" class="form-label">Graduation Year</label>
+        <select id="grad-year-select" class="form-select" required>
+          <option>2020</option>
+          <option>2021</option>
+          <option>2022</option>
+          <option>2023</option>
+        </select>
+      </div>
+      <div class="col-3 mb-3">
+        <label for="roll-no-input" class="form-label">Roll No.</label>
+        <input type="text" class="form-control" id="roll-no-input" required>
+      </div>
+      <div class="form-check invalid-feedback">
+        <input type="checkbox" id="conditions-checkbox" class="form-check-input invalid-feedback" name="conditions"
+          required>
+        <label for="conditions-checkbox" class="conditions-checkbox invalid-feedback">Agree to terms and
+          conditions:</label>
+        <p class="invalid-feedback">Invalid input. Please fill in all the fields correctly.</p>
+
+        <div class="invalid-feedback">You must agree to the conditions to submit the form.</div>
+      </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+
+  </script>
+
+</body>
+
+</html>

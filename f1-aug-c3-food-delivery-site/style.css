@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+}
+nav {
+  top: 0;
+  z-index: 100;
+  background-color: white;
+}
+.logo p {
+  font-size: 1.7rem;
+  color: rgb(249, 74, 61);
+}
+.navigation a {
+  padding-right: 15px;
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: black;
+}
+.searchAndLogin * {
+  padding-right: 5px;
+}
+.searchimg {
+  height: 1.7rem;
+  width: auto;
+}
+.searchAndLogin button {
+  background-color: rgb(249, 74, 61);
+  color: white;
+}
+::-webkit-scrollbar {
+  display: none;
+  scroll-behavior: smooth;
+}
+#search::placeholder {
+  font-size: 1rem;
+}
+.input input:focus {
+  outline: none;
+}
+header {
+  height: 90vh;
+  width: 100vw;
+  background-color: rgb(254, 242, 241);
+  padding: 15rem;
+}
+.heroimg {
+  width: 40vw;
+  height: auto;
+}
+.supertext {
+  font-size: 1rem;
+  color: rgb(249, 74, 61);
+  background-color: rgb(253, 236, 236);
+}
+.detail h1 {
+  font-family: Poppins;
+  font-weight: 600;
+  text-align: left;
+}
+span{
+    color: rgb(249, 74, 61);
+}
+.subtext{
+    color: rgba(105, 105, 123, 1);
+}
+.btn{
+    background-color: rgb(249, 74, 61);
+    font-size: 0.8rem;
+    color: white;
+}
+#about{
+    width: 80vw;
+}
+.card-img{
+    width: 60%;
+    height: auto;
+}
+.card{
+    width: 15vw !important;
+}
+
+.card-title{
+    font-weight: 600;
+    font-size: 1.7rem;
+    line-height: normal !important;
+}
+.card:hover{
+    cursor: pointer;
+    box-shadow: 0px 4px 2px yellow;
+
+}
+
+.options a{
+    padding: 5px 8px;
+    text-decoration: none;
+    color: black;
+}
+.options a:hover{
+    color: rgb(250, 96, 85);
+    border-bottom: 3px solid rgb(250, 96, 85);
+}
+.special-recipes-segment{
+    justify-content: center;
+}
+.download{
+    background-color: rgb(249, 74, 61);
+    height: 30vw;
+    width: 80vw;
+}
+.mobile{
+    height: inherit;
+    width: 50%;
+}
+.download-details{
+    width: 50%;
+}
+.bgcircle{
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 1;
+}
+.mobile-view{
+    position: absolute;
+    height: 130%;
+    top: 70px;
+    left: 180px;
+    z-index: 2;
+}
+.bucket{
+    bottom: 0px;
+    right: 0px;
+    width: 15%;
+}

@@ -1,0 +1,47 @@
+
+.custom-carousel {
+  max-height: 50vh; 
+  overflow: hidden;
+}
+
+.custom-carousel-img {
+  height: 50vh; 
+  object-fit: cover;
+}
+/* General Navbar Styling */
+.navbar {
+  background-color: #343a40 !important; /* Dark background */
+  padding: 10px 20px;
+}
+
+/* Nav Links Styling */
+.nav-link {
+  color: white !important;
+  text-decoration: none !important;
+  font-weight: normal;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  color: hsl(23, 82%, 60%) !important;
+  text-decoration: underline !important;
+  font-weight: bold;
+}
+
+/* Search Bar Styling */
+.form-control {
+  max-width: 200px;
+}
+
+/* Button Styling */
+.btn-primary {
+  background-color: #007bff;
+  border: none !important;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+
+
